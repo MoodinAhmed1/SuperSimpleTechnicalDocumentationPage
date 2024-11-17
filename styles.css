@@ -1,0 +1,15 @@
+#nav-bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	min-width: 290px;
+	padding: 10px;
+}
+
+#main-doc {
+	position: relative;
+	left: 300px;
+	padding: 10px;
+}
+
