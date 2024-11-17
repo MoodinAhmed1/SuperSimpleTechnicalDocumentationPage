@@ -1,15 +1,56 @@
+*{
+	font-family:poppins;
+	box-sizing: border-box;
+}
+/*------------------Navigation Bar---------------------*/
 #nav-bar{
 	position: fixed;
 	top: 0;
 	left: 0;
+	
 	width: 300px;
 	min-width: 290px;
-	padding: 10px;
+	
+	height: 100%;
+	
+	border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+#nav-bar header {
+	padding: 14px;
+	font-size: 26px;
+	font-weight: 600;
+
+	border-bottom: 2px solid rgba(200, 200, 200, 0.2);
+}
+#nav-bar ul {
+	height: 88%;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 0;
+}
+#nav-bar li {
+	padding: 12px 10px 12px 24px;
+	border-bottom: 2px solid rgba(200, 200, 200, 0.2);
+	font-size: 14px;
+	font-weight: 300;
+}
+.nav-link{
+	text-decoration: none;
+	color: black;
+}
+#nav-bar li:hover {
+	background-color: rgba(200, 200, 200, 0.2);
 }
 
+
+/*--------------------Main Document------------------------*/
 #main-doc {
-	position: relative;
-	left: 300px;
 	padding: 10px;
+	height: 100vh;
+	margin: 0;
+	padding-left: 20px;
+	margin-left: 300px;
 }
 
